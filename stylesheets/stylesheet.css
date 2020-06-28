@@ -441,18 +441,18 @@ p {
 }
 
 a {
-  color: #2879d0;
+  color: #faa7dc;
 }
 a:hover {
-  color: #2268b2;
+  color: #faa7dc;
 }
 
 header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header.png) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
+  background: #faa7dc url(../images/header.png) 0 0 repeat-x;
+  border-bottom: solid 1px #faa7dc;
 }
 
 header h1 {
@@ -820,7 +820,7 @@ dl dd {
     margin-top: 15px;
     font-size: 13px;
     line-height: 1;
-    color: #2879d0;
+    color: #faa7dc;
     text-align: center;
     background-color: #9ddcff;
     background-image: none;
