@@ -20,4 +20,6 @@ Lovelace fue la única hija legítima del poeta Lord Byron y su esposa Lady Byro
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bYCDVwyuVt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-
+<a target="_blank" href="">
+            <img src="/images/family.jpeg" alt="HTML tutorial" style="width:5600;height:315px;">
+          </a>
