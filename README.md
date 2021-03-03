@@ -1,92 +1,85 @@
-# Architect theme
+# Identity - Jekyll Theme
 
-This is a [Jekyll][1] theme that is an adaptation of [@jasonlong][2]'s [Architect theme][4] on [GitHub Pages][3].
+A Jekyll version of the "Identity" theme by [HTML5 UP](https://html5up.net/).
 
-This is the raw HTML and styles that are used for the *Architect* theme on [GitHub Pages](https://pages.github.com/).
+![Identity Theme](assets/images/identity.jpg "Identity Theme")
 
-![](https://cl.ly/image/1x0Q3213330G/content)
+# How to Use
 
-# Getting Started
+For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details,
+or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/),
+and [creating pages](https://jekyllrb.com/docs/pages/).
 
-## Prerequisites
+- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
+- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file!
 
-To install this theme, jekyll is required to be installed on your system. Head over to the [docs](https://jekyllrb.com/docs/installation/) and install the four requirements (Ruby, RubyGems, Node.js and Python 2.7). If you're on a Mac system, it's likely the only package you'll need to install is Node.js
+# Issues
 
-Once you've installed the requirements, run this command in your terminal:
+If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/identity-jekyll-theme) and I will be more than happy to help!
 
-```
-$ sudo gem install jekyll
-```
+Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/identity-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/identity-jekyll-theme@incoming.gitlab.com).
 
-You'll also need to install the bundler package:
+The GitHub repository is simply a mirror of the GitLab repository.
 
-```
-$ sudo gem install bundler
-```
+# Added Features
 
-## Downloading and Installing the theme
+* Add your **social profiles** easily in `_config.yml`.
 
-Download the theme
+# Configuration
 
-```
-https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
-```
+You can use the following custom parameters in `_config.yml`.
 
-Unzip it and use it as a regular jekyll folder.
+## Identity
+- `your-name` sets your name.
+- `your-title` sets your title.
 
-```
-$ unzip jekyll-architect-theme-master.zip
-```
+## Social settings
+- `500px_url`
+- `facebook_url`
+- `github_url`
+- `gitlab_url`
+- `googleplus_url`
+- `instagram_url`
+- `linkedin_url`
+- `pinterest_url`
+- `slack_url`
+- `twitter_url`
 
-Get inside the newly extracted folder
+# Credits
 
-```
-$ cd jekyll-architect-theme-master
-```
-
-Install the dependencies
-
-```
-$ bundle install
-```
-
-Use it!
+Original README from HTML5 UP:
 
 ```
-$ jekyll serve
+Identity by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+
+Just a fun little profile/card-style template I whipped up during a break between major
+projects. Minimal, responsive, and powered by Skel + Sass. Enjoy :)
+
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
+
+(* = not included)
+
+AJ
+aj@lkn.io | @ajlkn
+
+
+Credits:
+
+	Demo Images:
+		Unsplash (unsplash.com)
+
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
+
+	Other:
+		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+		CSS3 Pie (css3pie.com)
+		Respond.js (j.mp/respondjs)
+		Skel (skel.io)
 ```
 
-# Setup
-
-Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
-
-
-## baseurl
-
-`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: https://pietromenna.github.io/jekyll-architect-theme
-
-In the case above the baseurl should be set to "/jekyll-architect-theme".
-
-In the case the site sits in the root, you can leave `baseurl` as empty "".
-
-
-For more details read about [Jekyll][1] on its web page.
-
-# Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/pietromenna/jekyll-architect-theme.
-
-# Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-# License
-
-This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/).
-
-[1]: https://jekyllrb.com
-[2]: https://github.com/jasonlong
-[3]: http://pages.github.com/
-[4]: https://github.com/jasonlong/architect-theme
+Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).

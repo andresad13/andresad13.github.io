@@ -1,72 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{ site.locale }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen"  />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title> {{ page.title }} </title>
-  </head>
-
-  <body>
-    <header>
-      <div class="inner">
-        <h1> {{ site.name }} </h1>
-        <h2>Toda mi familia me espera con ilusión y han preparado una fiesta muy bonita a unos días de mi llegada. ¿Te animas a celebrarlo con nosotros? Acompaña a mis padres y toda mi familia en esta fiesta inolvidable.</h2>
-        <a href="https://github.com/pietromenna/jekyll-architect-theme" class="button"><small></a>
-      </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          
-          {{ content }}
-
-        </section>
-
-        <aside id="sidebar">
-
-
-          <h1>Consulta aquí  la <a target="_blank" href="http://www.babycentro.com/apps/giftregistry/registry/105526">Lista de Regalos</a> de Ada y envialos a carrera 73b # 6b - 43 - casa 3</h1>
-
-          <iframe width="404" height="208" src="https://w2.countingdownto.com/3083178" frameborder="0"></iframe>
-
-
-
-          <h2>
-            <p class="repo-owner"><a target="_blank" href="https://armatuvaca.com/vaca/db133053gwW88802">https://armatuvaca.com/vaca/db133053gwW88802</a> Este link te permitirá ofrecer detalles bonitos que lleguen al corazón de Ada y la futura mami, Gracias <a href="https://github.com/jasonlong"></a>.</p>
-          </h2>
-          
-          <a  width="404" height="200" target="_blank" href="https://armatuvaca.com/vaca/db133053gwW88802" class="button">
-            
-          </a>
-          
-
-
-          <a target="_blank" href="https://home.mercadolibre.com.co/bebes/#c_id=/home/categories/element&c_category_id=MCO1384&c_uid=ebe8a0ac-644e-4453-8817-1366c0d10289">
-            <img src="/images/mercadolibre.jpg" alt="HTML tutorial" style="width:80px;height:80px;">
-          </a>
-          <a target="_blank" href="https://www.linio.com.co/c/juguetes-ninos-y-bebes/bebes">
-            <img src="/images/linio.png" alt="HTML tutorial" style="width:80px;height:80px;">
-          </a>
-          <a target="_blank" href="https://www.falabella.com.co/falabella-co/category/cat50511/Mundo-Bebe">
-            <img src="/images/Falabella-Colombia.jpg" alt="HTML tutorial" style="width:160px;height:80px;">
-          </a>
-          
-
-          <p>Generado por <a href="https://andresad13.github.io">andresad13</a>.</p>
-        </aside>
-      </div>
-    </div>
-
-  </body>
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+{% include head.html %}
+<body class="is-loading">
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+</body>
 </html>
